@@ -18,11 +18,14 @@ body {
 @media (min-width: 480px) {
   .header {
     width: 480px;
+   
+
   }
 }
 @media (min-width: 960px) {
   .header {
     width: 960px;
+  
   }
 }
 
@@ -530,7 +533,16 @@ body {
   }
 }
 
-.navbar ul {
+.navbar ul nav:active ul {
   display: inline-block;
   list-style-type: none;
+  
+		position: absolute;
+		padding: 20px;
+		
+		
+		right: 20px;
+		top: 60px;
+		width: 50%;
+		
 }
